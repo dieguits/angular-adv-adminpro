@@ -1,1 +1,19 @@
-<p>grafica1 works!</p>
+<div class="row">
+    <div class="col-6">
+        <app-doughnut title="Number One"></app-doughnut>
+    </div>
+
+    <div class="col-6">
+        <app-doughnut [title]="'Number Two'" [content]="'This is the content that we want to show you!!!'" ></app-doughnut>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-6">
+        <app-doughnut [title]="'Number Three'" [content]="'Here some content!!'"></app-doughnut>
+    </div>
+
+    <div class="col-6">
+        <app-doughnut></app-doughnut>
+    </div>
+</div>
